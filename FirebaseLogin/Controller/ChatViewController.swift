@@ -30,19 +30,19 @@ class ChatViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.dataSource = self
-        
+//        tableView.dataSource = self
+//        
         navigationItem.hidesBackButton = true
         title = "Chat Screen"
         // Do any additional setup after loading the view.
         
-        
-        tableView.register(UINib(nibName: "MessageCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
-        
-        
-        
-        
-        loadData()
+//
+//        tableView.register(UINib(nibName: "MessageCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
+//
+//
+//
+//
+//        loadData()
     }
     func loadData() {
         
